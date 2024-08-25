@@ -117,6 +117,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/auth/logout', [AuthController::class, 'logout'])->name('auth.logout');
 });
 
+
 Route::get('/auth/register-login', function () {return view('auth.register-login');})->name('auth.register-login');
 Route::get('/auth/form', [AuthController::class, 'showLoginForm'])->name('auth.form');
 
