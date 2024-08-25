@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="panel right-panel">
-            <div class="content">
+            <div class="content" id="content-down">
                 <h3>Já é um de nós?</h3>
                 <p>Faça login para acessar sua conta!</p>
                 <button class="btn transparent" id="sign-in-btn">Entrar</button>

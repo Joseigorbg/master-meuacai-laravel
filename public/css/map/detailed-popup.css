@@ -58,4 +58,4 @@
 @media (min-width: 445px) { .detailed-popup { top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: auto; max-height: 100%; border-radius: 10px; } }
 
 /* Media Query para telas menores */
-@media (max-width: 445px) { .detailed-popup { width: 100%; height: 100%; top: 0; left: 0; transform: none; border-radius: 0; max-height: 100%; } }
+@media (max-width: 445px) { .detailed-popup { width: 70%; height: 100%; top: 0; left: 0; transform: none; border-radius: 0; max-height: 100%; } }

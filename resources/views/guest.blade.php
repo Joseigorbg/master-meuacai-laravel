@@ -33,4 +33,11 @@
 <script src="{{ asset('js/map-index/components.js') }}"></script>
 <script src="{{ asset('js/map-index/complexpop.js') }}"></script>
 <script src="{{ asset('js/map-index/preview.js') }}"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    Livewire.emit('loadLikeButton', point.id);
+});
+
+</script>
 @endsection
